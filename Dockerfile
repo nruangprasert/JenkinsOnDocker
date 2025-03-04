@@ -13,5 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Expose the port Flask runs on
 EXPOSE 5000
 
+# Set entrypoint to bash for debugging
+ENTRYPOINT ["/bin/sh", "-c"]
+
 # Run the application
 CMD ["python", "flask-monitoring-app/app.py"]
