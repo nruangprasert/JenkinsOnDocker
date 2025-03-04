@@ -60,6 +60,7 @@ EXPOSE 5000
 CMD ["python", "flask-monitoring-app/app.py"]```
 
 ---
+```
 
 ### **3️⃣ Building and Running the Flask Docker Container**
 To **build and run the Flask container**, follow these steps:
@@ -168,7 +169,7 @@ pipeline {
 
 ---
 
-## ✅ **Key Takeaways for the Hiring Manager**
+## ✅ **Key Takeaways**
 1. **Jenkins runs inside a Docker container** for CI/CD automation.
 2. **The Flask application is containerized separately** in a **dedicated `flask-container`**.
 3. **Jenkins pulls the latest code from GitHub**, builds a **Docker image for Flask**, and deploys it inside a container.
@@ -176,18 +177,6 @@ pipeline {
 5. **Both Jenkins and Flask are running in isolated Docker containers** to ensure consistency across environments.
 
 ---
-
-## 💡 **Why This Matters**
-✅ **Demonstrates real-world CI/CD skills** with **Docker + Jenkins + Flask**.  
-✅ **Ensures consistency** across different machines and environments.  
-✅ **Highlights DevOps knowledge**, making the project easy to deploy and scale.  
-
----
-
-## 📝 **Final Notes**
-- This project follows **Docker best practices** to ensure scalability and maintainability.
-- **The `Dockerfile` is mandatory** to show containerization expertise.
-- Jenkins automates the **build, test, and deployment process**, making this a **production-ready solution**.
 
 ---
 
@@ -213,4 +202,4 @@ For production deployment, you can:
 
 ---
 
-🚀 **This project is fully containerized, DevOps-ready, and built for scalability!**
+
